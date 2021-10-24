@@ -1,9 +1,9 @@
 import react from "react";
 import servicesData from './data/services_and_amenities.json'
-// import accessData from './data/accessibility.json'
+import accessData from './data/accessibility.json'
 
 const Hotelinfo = () => {
-    
+
     return(
         <div className="scene" id="hotelinfo">
             <article className="heading">
