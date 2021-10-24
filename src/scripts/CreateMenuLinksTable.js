@@ -9,7 +9,7 @@ var dynamodb = new AWS.DynamoDB();
 var params = {
   TableName: "MenuLinks",
   KeySchema: [
-    // Partition Key
+    // Partition Keyk
     { AttributeName: "href", KeyType: "HASH" },
     // Sort Keys
     { AttributeName: "text", KeyType: "RANGE"}  
